@@ -1,0 +1,116 @@
+body {
+    min-width: 500px;
+    height: 100vh;
+}
+.boxez {
+    border: 2px solid lightskyblue;
+    border-radius: 10px;
+    height: 500px;
+    width: 30%;
+    
+    float: left;
+    padding: 2%;
+
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+
+    text-align: center;
+}
+.imgboxz {
+    width: 100%;
+    height: 40%;
+}
+.box1 {
+    margin-left: 70px;
+}
+.buttonn {
+    background-color: blanchedalmond;
+    text-decoration: none;
+    border: 1px solid plum;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+
+.mymd1, .mymd2, .mymd3 {
+    background-color: rgba(151, 225, 255, 0.5);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    pointer-events: none;
+
+   
+}
+.mymd2 {
+    background-color: rgba(189, 255, 189, 0.5);
+}
+.mymd3 {
+    background-color: rgba(234, 223, 186, 0.5);
+}
+.mymd1:target, .mymd2:target, .mymd3:target {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.msgbox {
+    background-color: aliceblue;
+    width: 30%;
+    margin: auto;
+    margin-top: 15%;
+    text-align: center;
+    padding: 2%;
+    position: relative;
+
+}
+.ingimgs {
+    width: 50%;
+    
+}
+.timesnew {
+    font-family: 'Times New Roman';
+}
+.bs {
+    display: block;
+}
+.poke {
+    width: 80px;
+}
+.evee {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+}
+.eveebox, .pokebox {
+    border: 2px solid black;
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.boxbox {
+    border: 3px solid rgb(190, 237, 255);
+    padding: 12px;
+}
+.botone {
+    display: flex;
+    justify-content: center;
+}
+.exitbuttonn {
+    background-color: rgb(225, 173, 225);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
